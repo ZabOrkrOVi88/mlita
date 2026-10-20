@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\respect\\source\\repos\\mlita1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBDB46DB-E272-4C16-8E90-1812E40C3DB8}|mlita1.vcxproj|C:\\Users\\respect\\source\\repos\\mlita1\\mlita1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BBDB46DB-E272-4C16-8E90-1812E40C3DB8}|mlita1.vcxproj|solutionrelative:mlita1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mlita1.cpp",
+              "DocumentMoniker": "C:\\Users\\respect\\source\\repos\\mlita1\\mlita1.cpp",
+              "RelativeDocumentMoniker": "mlita1.cpp",
+              "ToolTip": "C:\\Users\\respect\\source\\repos\\mlita1\\mlita1.cpp",
+              "RelativeToolTip": "mlita1.cpp",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-18T11:20:17.937Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
