@@ -19,7 +19,7 @@ int max_k = 0;
 std::vector<std::pair<int, int>> best_path;
 std::vector<std::string> board(8);
 
-void Glub(int row, int columnn, std::vector<std::pair<int, int>>& path)
+void Glub(int row, int columnn, std::vector<std::pair<int, int>>& path, bool rule_flag)
 {
     bool land_flag = false;
 
@@ -56,10 +56,17 @@ void Glub(int row, int columnn, std::vector<std::pair<int, int>>& path)
                 if (board[try_row][try_column] == EMPTY)
                 {
                     land_flag = true;
-                    board[found_row][found_column] = BEATEN;
+                    if (rule_flag)
+                    {
+                        board[found_row][found_column] = BEATEN;
+                    }
+                    else
+                    {
+                        board[found_row][found_column] = EMPTY;
+                    }
                     path.push_back({ try_row + 1, try_column + 1 });
 
-                    Glub(try_row, try_column, path);
+                    Glub(try_row, try_column, path, rule_flag);
 
                     path.pop_back();
                     board[found_row][found_column] = BLACK;
@@ -109,9 +116,23 @@ int main()
         }
     }
 
-    Glub(start_row, start_column, path);
+    Glub(start_row, start_column, path, true);
 
     out << max_k << "\n";
+    for (int i = 0; i < best_path.size(); i++)
+    {
+        out << best_path[i].first << " " << best_path[i].second << "\n";
+    }
+
+    max_k = 0;
+    path.clear();
+    path.push_back({ start_row + 1, start_column + 1 });
+    best_path.clear();
+    best_path = path;
+
+    Glub(start_row, start_column, path, false);
+
+    out  << "\n" << max_k << "\n";
     for (int i = 0; i < best_path.size(); i++)
     {
         out << best_path[i].first << " " << best_path[i].second << "\n";

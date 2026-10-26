@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\respect\\source\\repos\\mlita4\\",
+  "WorkspaceRootPath": "C:\\Users\\respect\\Desktop\\mlita\\mlita4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78C66A58-5E60-49D6-AD18-82E1BBBC1EE7}|mlita4.vcxproj|C:\\Users\\respect\\source\\repos\\mlita4\\mlita4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{78C66A58-5E60-49D6-AD18-82E1BBBC1EE7}|mlita4.vcxproj|C:\\Users\\respect\\Desktop\\mlita\\mlita4\\mlita4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{78C66A58-5E60-49D6-AD18-82E1BBBC1EE7}|mlita4.vcxproj|solutionrelative:mlita4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "mlita4.cpp",
-              "DocumentMoniker": "C:\\Users\\respect\\source\\repos\\mlita4\\mlita4.cpp",
+              "DocumentMoniker": "C:\\Users\\respect\\Desktop\\mlita\\mlita4\\mlita4.cpp",
               "RelativeDocumentMoniker": "mlita4.cpp",
-              "ToolTip": "C:\\Users\\respect\\source\\repos\\mlita4\\mlita4.cpp",
+              "ToolTip": "C:\\Users\\respect\\Desktop\\mlita\\mlita4\\mlita4.cpp",
               "RelativeToolTip": "mlita4.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-19T18:38:03.858Z",
               "EditorCaption": ""
